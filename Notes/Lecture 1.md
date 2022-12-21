@@ -1,15 +1,17 @@
 A **View** is a method of receiving input from the user and displaying the output in a rectangular area on the screen.
-
+```swift
 struct ContentView: View {
     var body: some View {
-        Text("Hello World!")
+        Text("Hello, World")
     }
 }
+```
     
     
 A **ZStack** is a view combiner.
 It receives an argument known as a view combiner. The argument is a function meaning the views can have things like conditional statements.
-    
+
+```swift
 struct ContentView: View {
     var body: some View {
         ZStack {
@@ -20,5 +22,12 @@ struct ContentView: View {
             
             Text("Hello, World")
         }
+
     }
 }
+```
+
+
+
+
+
