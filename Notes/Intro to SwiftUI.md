@@ -31,6 +31,7 @@ struct ContentView: View {
 
 There are different types of stacks; a ZStack stacks view on top of each other from the user's view.
 
+
 ## Lecture 2
 
 
