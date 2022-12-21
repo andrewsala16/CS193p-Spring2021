@@ -1,3 +1,5 @@
+
+##Lecture 1
 A **View** is a method of receiving input from the user and displaying the output in a rectangular area on the screen.
 ```swift
 struct ContentView: View {
@@ -26,6 +28,10 @@ struct ContentView: View {
     }
 }
 ```
+
+There are different types of stacks; a ZStack stacks view on top of each other from the user's view.
+
+##Lecture 2
 
 
 
