@@ -1,6 +1,8 @@
 
 ## Lecture 1
 A **View** is a method of receiving input from the user and displaying the output in a rectangular area on the screen.
+Building a UI in Swift consists of building a data sturcture that behaves like a **view**
+
 ```swift
 struct ContentView: View {
     var body: some View {
@@ -8,7 +10,7 @@ struct ContentView: View {
     }
 }
 ```
-    
+
     
 A **ZStack** is a view combiner.
 It receives an argument known as a view combiner. The argument is a function meaning the views can have things like conditional statements.
@@ -38,13 +40,14 @@ An HStack is a view combiner that stacks views horizontally
 Variables cannot be created without a value. However variables can be created with a value not set yet meaning it has to be assigned as a parameter in when the function is being called.
 
 ```swift
-var faceUpp: Bool = false
+var faceUp: Bool = false
 ```
 
 A constant variable is considered a let
 
-
 ```swift
 let shape = RoundedRectangle(cornerRadius:20.0)
 ```
+
+
 
